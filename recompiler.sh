@@ -24,22 +24,22 @@ rm -fr Web/.compiled/
 ~/Code/pho-cli/bin/pho.php build ./Web/ ./Web/.compiled pgql
 
 cd Basic
-git commit -am "recompiled"
+git add .compiled && git commit -am "recompiled"
 git push
 
 cd ../Twitter-simple
-git commit -am "recompiled"
+git add .compiled && git commit -am "recompiled"
 git push
 
 cd ../Twitter-full
-git commit -am "recompiled"
+git add .compiled && git commit -am "recompiled"
 git push
 
 cd ../Facebook
-git commit -am "recompiled"
+git add .compiled && git commit -am "recompiled"
 git push
 
 cd ../Web
-git commit -am "recompiled"
+git add .compiled && git commit -am "recompiled"
 git push
 
