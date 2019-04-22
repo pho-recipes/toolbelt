@@ -12,6 +12,14 @@ git clone https://github.com/pho-recipes/Facebook
 git clone https://github.com/pho-recipes/Web
 git clone https://github.com/pho-recipes/Network
 
+# I know it's stupid, but it's sometimes necessary.
+cd Basic && git pull
+cd Twitter-simple && git pull
+cd Twitter-full && git pull
+cd Facebook && git pull
+cd Web && git pull
+cd Network && git pull
+
 rm -fr Basic/.compiled/
 rm -fr Twitter-simple/.compiled/
 rm -fr Twitter-full/.compiled/
